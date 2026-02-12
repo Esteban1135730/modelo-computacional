@@ -14,6 +14,9 @@ venv/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
+# Carpeta omitida (todo su contenido se ignora en git)
+omitir/
+
 # IDE / OS
 .DS_Store
 Thumbs.db

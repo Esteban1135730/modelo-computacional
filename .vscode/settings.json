@@ -1,0 +1,8 @@
+{
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "python.defaultInterpreterPath": "C:\\Users\\alons\\OneDrive\\Documents\\GitHub\\universida\\MODELO-COMPUTACIONAL-mio\\.venv\\Scripts\\python.exe",
+  "jupyter.kernels.trusted": ["modelo-computacional"],
+  "python.terminal.activateEnvironment": true,
+  "notebook.defaultFormatter": "ms-python.python",
+  "python.analysis.extraPaths": []
+}
