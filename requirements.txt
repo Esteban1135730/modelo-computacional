@@ -1,6 +1,19 @@
 # Entorno virtual del proyecto - Modelo Computacional
+# Version de Python del proyecto: ver .python-version y pyproject.toml (requires-python).
+# Este archivo NO fija la version del interprete; solo paquetes pip.
 # Crear venv: python -m venv .venv
 # Activar (Windows): .venv\Scripts\Activate.ps1
 # Instalar: pip install -r requirements.txt
 
 ipykernel>=7.0.0
+debugpy>=1.8.0
+scipy>=1.10.0
+pandas>=2.0.0
+openpyxl>=3.0.0
+pulp>=2.7.0
+geopy>=2.4.0
+folium>=0.15.0
+# Sin `jupyter` ni `notebook`: evitan JupyterLab y rutas >260 chars en Windows (OneDrive).
+# Los .ipynb en Cursor/VS Code usan solo ipykernel + nbconvert.
+# Si quieres Jupyter en el navegador: habilita rutas largas en Windows y luego `pip install jupyter`.
+nbconvert>=7.0.0
